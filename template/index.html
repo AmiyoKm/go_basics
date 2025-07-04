@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTMX with Go</title>
+		<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+	</head>
+	<body>
+		<h1>HTMX with Go</h1>
+		<p>{{.Message}}</p>
+		<button style="padding: 3px" hx-get="/time" hx-target="#time">
+			Click me to know current time!
+		</button>
+		<h2 id="time">Shows current time</h2>
+	</body>
+</html>
