@@ -9,5 +9,16 @@ func main() {
 	//challenge.WorkersJobs()
 	//challenge.Counter()
 	//challenge.Chat()
-	challenge.PingPong()
+	//challenge.PingPong()
+
+	// New challenges
+	//challenge.RateLimiter()
+	//challenge.ProducerConsumer()
+	challenge.FanInFanOut()
+	//challenge.TimeoutChallenge()
+	//challenge.RaceConditionChallenge()
+	//challenge.SemaphoreChallenge()
+	//challenge.DownloadManager()
+	//challenge.PipelineChallenge()
+	//challenge.PipelineWithErrorHandling()
 }

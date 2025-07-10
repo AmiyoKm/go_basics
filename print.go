@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, World!")
 	fmt.Println("Hello, World! 🐼")
-	fmt.Printf("Hello, World! 🐼\n")
+	fmt.Printf("Hello, World!  🐼\n")
 	var ten int = 10
 	fmt.Println("Value of var is", ten)
 
@@ -22,5 +22,5 @@ func main() {
 	}
 	something["third"] = "third"
 	fmt.Println(something)
-
+	
 }
